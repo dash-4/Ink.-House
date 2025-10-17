@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Star1 from "../assets/Star1.png";
 import Cart from "../assets/cart.png"
 
@@ -13,13 +12,13 @@ function Header() {
         </div>
         <nav className="flex gap-10 items-center text-[#2C2D35]">
           <ul>
-            <Link to="/rec">Репродукции</Link>
+            <a href="#rep">Репродукции</a>
           </ul>
           <ul>
-            <Link to="/rec">Новинки</Link>
+            <a hre="#">Новинки</a>
           </ul>
           <ul>
-            <Link to="/rec">О нас</Link>
+            <a href="#about">О нас</a>
           </ul>
            <img src={Cart} alt="cart" className="w-24px h-24px" />
         </nav>

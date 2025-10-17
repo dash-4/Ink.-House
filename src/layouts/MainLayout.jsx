@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 function MainLayout() {
     return(
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-7">
             <Header />
             <main className="">
                 <Outlet />
